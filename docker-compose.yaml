@@ -11,5 +11,5 @@ services:
     labels:
       - "com.ouroboros.enable=true"
     environment:
-      - ROUTER_IP= #Required Router IP
-      - INTERFACE_NAME= #Required Interface name, can use this command to get it: ip route get 8.8.8.8 | sed -nr 's/.*dev ([^\ ]+).*/\1/p'
+      - ROUTER_IP= 192.168.0.1
+      - INTERFACE_NAME= enp0s3
